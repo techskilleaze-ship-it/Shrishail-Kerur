@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Shrishail Kerur — Lighting Designer, Programmer & Operator based in Dubai, UAE.">
+<title>Shrishail Kerur — Lighting Designer &amp; Operator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800;900&amp;family=Manrope:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth;background:#0b0a0d}
+body{margin:0;background:#0b0a0d;color:#f3efe9;font-family:Manrope,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#f2b04a;text-decoration:none}
+a:hover{color:#ffd28a}
+::selection{background:#f2b04a;color:#0b0a0d}
+.h0:hover{color:#f2b04a !important}
+.h1:hover{color:#f2b04a !important}
+.h2:hover{color:#f2b04a !important}
+.h3:hover{color:#f2b04a !important}
+.h4:hover{color:#ffd28a !important}
+.h5:hover{background:#ffd28a !important;color:#0b0a0d !important}
+.h6:hover{border-color:#f2b04a !important;color:#f2b04a !important}
+.h7:hover{transform:scale(1.05) !important}
+.h8:hover{transform:scale(1.05) !important}
+.h9:hover{transform:scale(1.05) !important}
+.h10:hover{transform:scale(1.05) !important}
+.h11:hover{transform:scale(1.05) !important}
+.h12:hover{transform:scale(1.05) !important}
+.h13:hover{transform:scale(1.05) !important}
+.h14:hover{transform:scale(1.05) !important}
+.h15:hover{transform:scale(1.05) !important}
+.h16:hover{transform:scale(1.05) !important}
+.h17:hover{color:#f2b04a !important}
+.h18:hover{color:#f2b04a !important}
+.h19:hover{color:#f2b04a !important}
+.h20:hover{color:#f2b04a !important}
+</style>
+</head>
+<body>
+<div id="root" style="background:#0b0a0d;color:#f3efe9;overflow-x:clip">
+
+<nav id="nav" style="position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px clamp(20px,4vw,56px);transition:background .4s ease, border-color .4s ease;border-bottom:1px solid transparent">
+  <a href="#top" style="display:flex;align-items:center;gap:12px;color:#f3efe9">
+    <span style="width:34px;height:34px;border-radius:50%;border:1.5px solid #f2b04a;display:grid;place-items:center;font-family:'Big Shoulders Display';font-weight:800;font-size:16px;letter-spacing:.04em;color:#f2b04a">SK</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase">Shrishail Kerur</span>
+  </a>
+  <div style="display:flex;gap:clamp(14px,2.4vw,32px);font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;flex-wrap:wrap;justify-content:flex-end">
+    <a class="h0" href="#work" style="color:#cfc9c1">Work</a>
+    <a class="h1" href="#dome" style="color:#cfc9c1">Al Wasl</a>
+    <a class="h2" href="#experience" style="color:#cfc9c1">Experience</a>
+    <a class="h3" href="#skills" style="color:#cfc9c1">Skills</a>
+    <a class="h4" href="#contact" style="color:#f2b04a">Contact</a>
+  </div>
+</nav>
+
+<header id="top" data-screen-label="Hero" style="position:relative;min-height:100vh;display:flex;align-items:flex-end;overflow:hidden">
+  <img id="heroImg" src="assets/etihad-beams.jpg" alt="Arena lit by moving-head beams" style="position:absolute;inset:-6% 0 0 0;width:100%;height:112%;object-fit:cover;will-change:transform;filter:saturate(1.05)">
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,10,13,.55) 0%,rgba(11,10,13,.2) 35%,rgba(11,10,13,.75) 72%,#0b0a0d 100%)"></div>
+  <div id="beamA" style="position:absolute;top:-10%;left:18%;width:22vw;height:130%;background:linear-gradient(180deg,rgba(242,176,74,.38),rgba(242,176,74,0) 75%);clip-path:polygon(46% 0,54% 0,100% 100%,0 100%);transform-origin:50% 0;mix-blend-mode:screen;filter:blur(6px);pointer-events:none"></div>
+  <div id="beamB" style="position:absolute;top:-10%;right:16%;width:22vw;height:130%;background:linear-gradient(180deg,rgba(155,107,255,.42),rgba(155,107,255,0) 75%);clip-path:polygon(46% 0,54% 0,100% 100%,0 100%);transform-origin:50% 0;mix-blend-mode:screen;filter:blur(6px);pointer-events:none"></div>
+
+  <div style="position:relative;width:100%;padding:0 clamp(20px,4vw,56px) clamp(40px,7vh,80px);display:grid;gap:28px">
+    <div data-reveal="" style="display:flex;gap:14px;align-items:center;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#f2b04a">
+      <span style="width:8px;height:8px;border-radius:50%;background:#ff4d4d;box-shadow:0 0 12px #ff4d4d"></span>
+      <span>Live</span>
+      <span style="color:#cfc9c1">TC</span>
+      <span id="tc" style="color:#f3efe9;font-variant-numeric:tabular-nums">00:00:00:00</span>
+    </div>
+    <h1 data-reveal="" style="margin:0;font-family:'Big Shoulders Display',sans-serif;font-weight:900;font-size:clamp(64px,13vw,220px);line-height:.84;letter-spacing:-.01em;text-transform:uppercase">Shrishail<br><span style="color:transparent;-webkit-text-stroke:2px #f3efe9">Kerur</span></h1>
+    <div data-reveal="" style="display:flex;flex-wrap:wrap;gap:16px 48px;align-items:flex-end;justify-content:space-between">
+      <p style="margin:0;max-width:560px;font-size:clamp(17px,1.5vw,21px);line-height:1.5;color:#e6e0d8;text-wrap:pretty">Lighting designer, programmer and operator. Eight-plus years shaping light for arenas, award shows, exhibitions and the Al Wasl Dome — from the desk at FOH across the UAE and Italy.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a class="h5" href="#work" style="padding:14px 22px;border-radius:999px;background:#f2b04a;color:#0b0a0d;font-weight:700;font-size:14px;letter-spacing:.04em">View the work</a>
+        <a class="h6" href="#contact" style="padding:14px 22px;border-radius:999px;border:1px solid rgba(243,239,233,.4);color:#f3efe9;font-weight:600;font-size:14px;letter-spacing:.04em">Get in touch</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about" data-screen-label="About" style="padding:clamp(80px,12vw,160px) clamp(20px,4vw,56px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(40px,6vw,96px);align-items:center;max-width:1440px;margin:0 auto">
+  <div data-reveal="" style="position:relative;aspect-ratio:4/5;border-radius:6px;overflow:hidden">
+    <img src="assets/portrait.jpg" alt="Shrishail Kerur at a lighting console" style="width:100%;height:100%;object-fit:cover;display:block">
+    <div style="position:absolute;left:16px;bottom:16px;padding:8px 12px;background:rgba(11,10,13,.7);backdrop-filter:blur(8px);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">At the desk</div>
+  </div>
+  <div style="display:grid;gap:32px">
+    <div data-reveal="" style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#f2b04a">Cue 01 — About</div>
+    <h2 data-reveal="" style="margin:0;font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(40px,5.4vw,80px);line-height:.95;text-transform:uppercase;text-wrap:balance">Light is the first thing an audience feels.</h2>
+    <p data-reveal="" style="margin:0;font-size:18px;line-height:1.7;color:#cfc9c1;text-wrap:pretty">I program and run lighting for live productions — corporate events, concerts, exhibitions, outdoor shows and complex audiovisual installations. My day-to-day spans GrandMA2/3 and Avolites consoles, Vectorworks and WYSIWYG pre-viz, DMX/RDM and network configuration, power distribution and crew leadership, all held to strict operational and safety standards.</p>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1px;background:rgba(243,239,233,.12);border:1px solid rgba(243,239,233,.12)">
+      <div style="background:#0b0a0d;padding:22px 20px;display:grid;gap:6px"><span style="font-family:'Big Shoulders Display';font-weight:800;font-size:48px;line-height:1;color:#f2b04a">8+</span><span style="font-size:13px;color:#a39e98">Years in live events</span></div>
+      <div style="background:#0b0a0d;padding:22px 20px;display:grid;gap:6px"><span style="font-family:'Big Shoulders Display';font-weight:800;font-size:48px;line-height:1;color:#f2b04a">2</span><span style="font-size:13px;color:#a39e98">Countries — UAE &amp; Italy</span></div>
+      <div style="background:#0b0a0d;padding:22px 20px;display:grid;gap:6px"><span style="font-family:'Big Shoulders Display';font-weight:800;font-size:48px;line-height:1;color:#f2b04a">MA3</span><span style="font-size:13px;color:#a39e98">GrandMA &amp; Avolites</span></div>
+      <div style="background:#0b0a0d;padding:22px 20px;display:grid;gap:6px"><span style="font-family:'Big Shoulders Display';font-weight:800;font-size:48px;line-height:1;color:#f2b04a">6</span><span style="font-size:13px;color:#a39e98">Languages spoken</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="work" data-screen-label="Work" style="padding:0 clamp(20px,4vw,56px) clamp(80px,10vw,140px);max-width:1440px;margin:0 auto">
+  <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:48px">
+    <div style="display:grid;gap:18px">
+      <div data-reveal="" style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#f2b04a">Cue 02 — Selected work</div>
+      <h2 data-reveal="" style="margin:0;font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(44px,6vw,96px);line-height:.92;text-transform:uppercase">Shows &amp; stages</h2>
+    </div>
+    <p data-reveal="" style="margin:0;max-width:380px;color:#a39e98;font-size:15px;line-height:1.6">Arenas, award nights, sport, brand launches and theatre — a cross-section of productions from the last few seasons.</p>
+  </div>
+  <div style="columns:3 300px;column-gap:16px">
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h7" src="assets/etihad-red.jpg" alt="Etihad Arena concert in red" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">Abu Dhabi · Concert</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">Etihad Arena</span></figcaption>
+    </figure>
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h8" src="assets/shifting-gravity.jpg" alt="BFTH Arena Awards stage from the lighting desk" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">Awards show · FOH</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">BFTH Arena Awards — Shifting Gravity</span></figcaption>
+    </figure>
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h9" src="assets/violinist.jpg" alt="Solo violinist in pooled spotlights" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">Theatre</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">Solo in four pools</span></figcaption>
+    </figure>
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h10" src="assets/black-panther.jpg" alt="Black Panther 6.0 arena stage with blue beams" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">Corporate gala</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">Black Panther 6.0</span></figcaption>
+    </figure>
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h11" src="assets/dome-plaza.jpg" alt="Al Wasl Dome projection over the plaza" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">Expo City Dubai</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">Al Wasl Plaza Dome</span></figcaption>
+    </figure>
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h12" src="assets/para-powerlifting.jpg" alt="Crew on the Dubai 2023 Para Powerlifting platform" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">Sport · Crew</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">Dubai 2023 Para Powerlifting World Championships</span></figcaption>
+    </figure>
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h13" src="assets/circus.jpg" alt="Acrobat on a circus ring under gobo wash" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">In the round</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">Circus production</span></figcaption>
+    </figure>
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h14" src="assets/porsche.jpg" alt="Icons of Porsche outdoor stage" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">Brand event · Outdoor</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">Icons of Porsche</span></figcaption>
+    </figure>
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h15" src="assets/kaiser-chiefs.jpg" alt="Kaiser Chiefs festival stage" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">Festival stage</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">Kaiser Chiefs</span></figcaption>
+    </figure>
+    <figure data-reveal="" style="margin:0 0 16px;break-inside:avoid;position:relative;overflow:hidden;border-radius:6px">
+      <img class="h16" src="assets/stadium-red.jpg" alt="Stadium concert with red haze" style="width:100%;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)">
+      <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:40px 18px 16px;background:linear-gradient(transparent,rgba(11,10,13,.9));display:grid;gap:4px;pointer-events:none"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#f2b04a">Live music</span><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:24px;text-transform:uppercase">Stadium concert</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="dome" data-screen-label="Al Wasl Dome" style="position:relative;padding:clamp(80px,10vw,140px) 0;background:#120e18;overflow:hidden">
+  <div style="padding:0 clamp(20px,4vw,56px);max-width:1440px;margin:0 auto 56px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:32px;align-items:end">
+    <div style="display:grid;gap:18px">
+      <div data-reveal="" style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#b892ff">Cue 03 — Current engagement</div>
+      <h2 data-reveal="" style="margin:0;font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(44px,6vw,96px);line-height:.92;text-transform:uppercase">One dome.<br>Endless looks.</h2>
+    </div>
+    <p data-reveal="" style="margin:0;max-width:520px;color:#cfc9c1;font-size:17px;line-height:1.7;text-wrap:pretty">As Technical Manager &amp; Lighting Operator with Agora Audio Visual, I coordinate lighting operations at the Al Wasl Plaza Dome, Expo City Dubai — running cues, keeping the rig show-ready and working alongside projection and production teams on a 360° canvas.</p>
+  </div>
+  <div id="strip" style="display:flex;gap:16px;width:max-content;padding-left:clamp(20px,4vw,56px);will-change:transform">
+    <img src="assets/dome-marigold.jpg" alt="Dome with marigold projection" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/desk-dome-red.jpg" alt="Console beneath the dome in red" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/dome-prism.jpg" alt="Dome with prism light" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/dome-blue.jpg" alt="Dome lit blue" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/dome-gold.jpg" alt="Dome in violet and gold" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/desk-dome-violet.jpg" alt="Console beneath the dome in violet" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/dome-red-text.jpg" alt="Dome in red with projected text" style="height:clamp(280px,42vw,520px);aspect-ratio:4/3;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/dome-stars.jpg" alt="Dome amber with starbursts" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/desk-dome-flowers.jpg" alt="Console beneath floral projection" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/dome-beams.jpg" alt="Dome exterior with sky beams" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+    <img src="assets/dome-amber.jpg" alt="Dome amber under palms" style="height:clamp(280px,42vw,520px);aspect-ratio:3/4;object-fit:cover;border-radius:6px;display:block">
+  </div>
+</section>
+
+
+<section id="reel" data-screen-label="Reel" style="padding:clamp(80px,10vw,140px) clamp(20px,4vw,56px);max-width:1440px;margin:0 auto;display:grid;gap:40px">
+  <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px">
+    <div style="display:grid;gap:18px">
+      <div data-reveal="" style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#f2b04a">Cue 04 — In motion</div>
+      <h2 data-reveal="" style="margin:0;font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(44px,6vw,96px);line-height:.92;text-transform:uppercase">Show reel</h2>
+    </div>
+    <p data-reveal="" style="margin:0;max-width:340px;color:#a39e98;font-size:15px;line-height:1.6">Light only really makes sense when it moves.</p>
+  </div>
+  <div data-reveal="" style="position:relative;border-radius:6px;overflow:hidden;background:#000;border:1px solid rgba(243,239,233,.1)">
+    <video id="video" src="assets/reel.mp4" muted loop playsinline controls preload="metadata" style="display:block;width:100%;max-height:78vh;object-fit:contain;background:#000"></video>
+  </div>
+</section>
+
+
+<section id="experience" data-screen-label="Experience" style="padding:clamp(80px,10vw,140px) clamp(20px,4vw,56px);max-width:1440px;margin:0 auto">
+  <div style="display:grid;gap:18px;margin-bottom:48px">
+    <div data-reveal="" style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#f2b04a">Cue 05 — Experience</div>
+    <h2 data-reveal="" style="margin:0;font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(44px,6vw,96px);line-height:.92;text-transform:uppercase">The cue list</h2>
+  </div>
+  <div style="display:grid;border-top:1px solid rgba(243,239,233,.15)">
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px 32px;padding:32px 0;border-bottom:1px solid rgba(243,239,233,.15)">
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;color:#f2b04a">CUE 1 · GO</span><span style="font-family:'JetBrains Mono',monospace;font-size:14px;color:#f3efe9">2025 — Present</span></div>
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:30px;line-height:1.05;text-transform:uppercase">Technical Manager &amp; Lighting Operator</span><span style="color:#a39e98;font-size:15px">Agora Audio Visual LLC · Dubai, UAE</span></div>
+      <p style="margin:0;color:#cfc9c1;font-size:15px;line-height:1.65">Lighting operations for event production at the Al Wasl Plaza Dome, Expo City Dubai. Console operation, cueing, equipment readiness, troubleshooting and coordination with production teams.</p>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px 32px;padding:32px 0;border-bottom:1px solid rgba(243,239,233,.15)">
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;color:#f2b04a">CUE 2</span><span style="font-family:'JetBrains Mono',monospace;font-size:14px;color:#f3efe9">2026 · 3 months</span></div>
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:30px;line-height:1.05;text-transform:uppercase">Team Leader &amp; Lighting Operator</span><span style="color:#a39e98;font-size:15px">Agora Audio Visual SRL · Italy</span></div>
+      <p style="margin:0;color:#cfc9c1;font-size:15px;line-height:1.65">Led the lighting team on a three-month live-event assignment — system operation, technical troubleshooting and crew coordination.</p>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px 32px;padding:32px 0;border-bottom:1px solid rgba(243,239,233,.15)">
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;color:#f2b04a">CUE 3</span><span style="font-family:'JetBrains Mono',monospace;font-size:14px;color:#f3efe9">2024 — 2025</span></div>
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:30px;line-height:1.05;text-transform:uppercase">Lighting Designer &amp; Programmer</span><span style="color:#a39e98;font-size:15px">SLS Production LLC · Dubai, UAE</span></div>
+      <p style="margin:0;color:#cfc9c1;font-size:15px;line-height:1.65">Lighting design and programming for AV productions, using visualisation tools for concepts and technical planning.</p>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px 32px;padding:32px 0;border-bottom:1px solid rgba(243,239,233,.15)">
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;color:#f2b04a">CUE 4</span><span style="font-family:'JetBrains Mono',monospace;font-size:14px;color:#f3efe9">2020 — 2024</span></div>
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:30px;line-height:1.05;text-transform:uppercase">Lighting Operator &amp; Programmer</span><span style="color:#a39e98;font-size:15px">Prince AV LLC · Dubai, UAE</span></div>
+      <p style="margin:0;color:#cfc9c1;font-size:15px;line-height:1.65">Console operation and cue programming for event production; fixture setup, DMX and control systems.</p>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px 32px;padding:32px 0;border-bottom:1px solid rgba(243,239,233,.15)">
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;color:#f2b04a">CUE 5</span><span style="font-family:'JetBrains Mono',monospace;font-size:14px;color:#f3efe9">2018 — 2020</span></div>
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:30px;line-height:1.05;text-transform:uppercase">Lighting Desk Operator &amp; Programmer</span><span style="color:#a39e98;font-size:15px">Abacus AV LLC · Dubai, UAE</span></div>
+      <p style="margin:0;color:#cfc9c1;font-size:15px;line-height:1.65">Desk operation and console programming for AV productions; system setup and control configuration.</p>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px 32px;padding:32px 0;border-bottom:1px solid rgba(243,239,233,.15)">
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.14em;color:#f2b04a">CUE 6</span><span style="font-family:'JetBrains Mono',monospace;font-size:14px;color:#f3efe9">2015 — 2018</span></div>
+      <div style="display:grid;gap:6px;align-content:start"><span style="font-family:'Big Shoulders Display';font-weight:700;font-size:30px;line-height:1.05;text-transform:uppercase">Lighting Technician &amp; Operator</span><span style="color:#a39e98;font-size:15px">Geetha Sounds &amp; Lights · Mangalore, India</span></div>
+      <p style="margin:0;color:#cfc9c1;font-size:15px;line-height:1.65">Where it started — installation, operation and troubleshooting of event lighting.</p>
+    </div>
+  </div>
+</section>
+
+<section id="desk" data-screen-label="Behind the desk" style="padding:0 clamp(20px,4vw,56px) clamp(80px,10vw,140px);max-width:1440px;margin:0 auto">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px">
+    <div data-reveal="" style="grid-row:span 2;border-radius:6px;overflow:hidden;min-height:420px"><img src="assets/etihad-desk.jpg" alt="Programming a grandMA3 at Etihad Arena" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+    <div data-reveal="" style="border-radius:6px;overflow:hidden;aspect-ratio:4/3"><img src="assets/operator-look.jpg" alt="At the console" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+    <div data-reveal="" style="border-radius:6px;overflow:hidden;aspect-ratio:4/3"><img src="assets/bfth-desk.jpg" alt="FOH console at an awards show" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+    <div data-reveal="" style="border-radius:6px;overflow:hidden;aspect-ratio:4/3"><img src="assets/desk-arena.jpg" alt="Console with arena stage beyond" style="width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block"></div>
+    <div data-reveal="" style="border-radius:6px;overflow:hidden;aspect-ratio:4/3;background:#17131d;padding:28px;display:grid;align-content:end;gap:12px">
+      <span style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#f2b04a">Behind the desk</span>
+      <span style="font-family:'Big Shoulders Display';font-weight:800;font-size:clamp(28px,2.6vw,40px);line-height:1;text-transform:uppercase">From load-in to last cue — safe, on time, on cue.</span>
+    </div>
+  </div>
+</section>
+
+<section id="skills" data-screen-label="Skills" style="padding:clamp(80px,10vw,140px) clamp(20px,4vw,56px);background:#120e18">
+  <div style="max-width:1440px;margin:0 auto">
+    <div style="display:grid;gap:18px;margin-bottom:48px">
+      <div data-reveal="" style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#b892ff">Cue 06 — Toolkit</div>
+      <h2 data-reveal="" style="margin:0;font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(44px,6vw,96px);line-height:.92;text-transform:uppercase">Patched &amp; ready</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px">
+      <div data-reveal="" style="padding:28px;border:1px solid rgba(243,239,233,.12);border-radius:6px;background:#0b0a0d;display:grid;gap:18px;align-content:start">
+        <div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a39e98"><span>Universe 1</span><span style="color:#f2b04a">Consoles</span></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(242,176,74,.12);color:#f7c979;font-size:14px;font-weight:600">GrandMA3</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(242,176,74,.12);color:#f7c979;font-size:14px;font-weight:600">GrandMA2</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(242,176,74,.12);color:#f7c979;font-size:14px;font-weight:600">GrandMA</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Avolites Titan One</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Tiger Touch</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Arena</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Expert Pro</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Pearl 2010</span>
+        </div>
+      </div>
+      <div data-reveal="" style="padding:28px;border:1px solid rgba(243,239,233,.12);border-radius:6px;background:#0b0a0d;display:grid;gap:18px;align-content:start">
+        <div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a39e98"><span>Universe 2</span><span style="color:#f2b04a">Design &amp; pre-viz</span></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Vectorworks</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">WYSIWYG</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Depence</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Capture</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Technical layouts</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Show programming</span>
+        </div>
+      </div>
+      <div data-reveal="" style="padding:28px;border:1px solid rgba(243,239,233,.12);border-radius:6px;background:#0b0a0d;display:grid;gap:18px;align-content:start">
+        <div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a39e98"><span>Universe 3</span><span style="color:#f2b04a">Network &amp; control</span></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">MA-Net</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Art-Net</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">sACN</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">DMX / RDM</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Luminex</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Patchscape</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">PRTG</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">IP addressing</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Dimmer networks</span>
+        </div>
+      </div>
+      <div data-reveal="" style="padding:28px;border:1px solid rgba(243,239,233,.12);border-radius:6px;background:#0b0a0d;display:grid;gap:18px;align-content:start">
+        <div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a39e98"><span>Universe 4</span><span style="color:#f2b04a">Power &amp; operations</span></div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Power distribution</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Load management</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">LED fixtures</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Install &amp; commissioning</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Crew leadership &amp; training</span>
+          <span style="padding:7px 12px;border-radius:4px;background:rgba(243,239,233,.06);color:#e6e0d8;font-size:14px">Event safety</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" data-screen-label="Contact" style="position:relative;overflow:hidden;padding:clamp(100px,14vw,200px) clamp(20px,4vw,56px) 48px">
+  <img src="assets/dome-exterior.jpg" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.32">
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,#0b0a0d 0%,rgba(11,10,13,.55) 40%,#0b0a0d 100%)"></div>
+  <div style="position:relative;max-width:1440px;margin:0 auto;display:grid;gap:56px">
+    <div style="display:grid;gap:18px">
+      <div data-reveal="" style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#f2b04a">Final cue — Contact</div>
+      <h2 data-reveal="" style="margin:0;font-family:'Big Shoulders Display',sans-serif;font-weight:900;font-size:clamp(56px,10vw,170px);line-height:.86;text-transform:uppercase">Let's light<br>the next one.</h2>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:24px;padding-top:32px;border-top:1px solid rgba(243,239,233,.2)">
+      <div style="display:grid;gap:8px"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a39e98">Email</span><a class="h17" href="mailto:shrishailshri8@gmail.com" style="font-size:19px;font-weight:600;color:#f3efe9">shrishailshri8@gmail.com</a></div>
+      <div style="display:grid;gap:8px"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a39e98">Phone</span><a class="h18" href="tel:+971521563236" style="font-size:19px;font-weight:600;color:#f3efe9">+971 52 156 3236</a><a class="h19" href="tel:+971567942476" style="font-size:19px;font-weight:600;color:#f3efe9">+971 56 794 2476</a></div>
+      <div style="display:grid;gap:8px"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a39e98">Based in</span><span style="font-size:19px;font-weight:600">Dubai, UAE</span></div>
+      <div style="display:grid;gap:8px"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a39e98">Languages</span><span style="font-size:16px;line-height:1.5;color:#cfc9c1">English, Hindi, Kannada, Tulu, Malayalam, Tamil</span></div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a39e98">
+      <span>© 2026 Shrishail Kerur</span>
+      <a class="h20" href="#top" style="color:#a39e98">Back to top ↑</a>
+    </div>
+  </div>
+</section>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
